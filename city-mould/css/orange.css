@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-03 09:57:00
+ * @version $Id$
+ */
+
+
+/************** header ****************/
+ .logo{ color: #ff5c5a; }
+ .header-hover{ background: #6ea2d7; }
+ .header-hover nav ul li a{ color: #fff; }
+ header.hover{ background: #6ea2d7;}
+ header.hover .logo , header.hover nav ul li a{ color: #fff; }
+
+/************** banner ****************/
+ .banner{ background: url(../images/yellow/introduce-bg.jpg) no-repeat; height: 465px; overflow: hidden; }
+ .banner .photo-box{ background: rgba(255, 116, 104, .6); border:3px solid #ff766b;}
+ .banner button{ background: rgba(255, 254, 223, 0.7); border:2px solid #fffdac; color: #ff4e4c;}
+ .banner button:before{background: rgba(255, 254, 223, 0.9)}
+ .banner button:hover:before{ background: rgba(255, 254, 223, 0.9);}
+
+/*********** honor ***********/
+
+
+/*********** aboutus ***********/
+ .aboutus{ background: #ffc056; }
+
+
+/*********** consulting ***********/
+.consulting ul.tab-title li.active{ color: #fff; background: #6ea2d7; border:1px solid #6ea2d7; }
+
+.consulting .tab-content .Q-active{ background: #fcaf17; color: #fff; }
+
+
+
